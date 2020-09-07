@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#x#",
+    "###"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:dyes/green"
+    },
+    "#": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "easycircuit:firstblock"
+  }
+}

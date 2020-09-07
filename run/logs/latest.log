@@ -1,0 +1,91 @@
+[07九月2020 10:53:18.498] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\86158\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[07九月2020 10:53:18.498] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_251 by Oracle Corporation
+[07九月2020 10:53:19.154] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[07九月2020 10:53:20.811] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\86158\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[07九月2020 10:53:24.039] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[07九月2020 10:53:40.768] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[07九月2020 10:53:40.817] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[07九月2020 10:53:42.048] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.0, for MC 1.14.4 with MCP 20190829.143755
+[07九月2020 10:53:42.048] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.0 Initialized
+[07九月2020 10:53:46.807] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[07九月2020 10:53:47.317] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easycircuit] Starting version check at http://myurl.me/
+[07九月2020 10:53:47.902] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_251]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945) ~[?:1.8.0_251]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_251]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_251]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 3 more
+[07九月2020 10:53:47.917] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[07九月2020 10:53:49.784] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.0 Target: null
+[07九月2020 10:53:51.922] [Server-Worker-8/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load easycircuit:textures/block/firstblock.png : java.io.FileNotFoundException: easycircuit:textures/block/firstblock.png
+[07九月2020 10:53:52.847] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[07九月2020 10:53:53.442] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[07九月2020 10:53:53.443] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[07九月2020 10:53:53.686] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[07九月2020 10:53:54.560] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[07九月2020 10:53:54.567] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[07九月2020 10:53:54.569] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[07九月2020 10:53:55.809] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[07九月2020 10:54:35.793] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07九月2020 10:54:35.794] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07九月2020 10:54:35.795] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07九月2020 10:54:35.796] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07九月2020 10:54:35.796] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07九月2020 10:54:36.152] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[07九月2020 10:54:36.152] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[07九月2020 10:54:36.352] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[07九月2020 10:54:36.607] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.2.0_mapped_snapshot_20190719-1.14.3-recomp.jar
+[07九月2020 10:54:37.812] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[07九月2020 10:54:39.514] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[07九月2020 10:54:40.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07九月2020 10:54:41.480] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：0%
+[07九月2020 10:54:41.480] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：0%
+[07九月2020 10:54:41.481] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：0%
+[07九月2020 10:54:41.864] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：29%
+[07九月2020 10:54:44.198] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：83%
+[07九月2020 10:54:44.198] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：83%
+[07九月2020 10:54:44.198] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：83%
+[07九月2020 10:54:44.199] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：83%
+[07九月2020 10:54:44.264] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：86%
+[07九月2020 10:54:44.867] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：95%
+[07九月2020 10:54:45.264] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: 准备生成区域中：95%
+[07九月2020 10:54:45.765] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5502 ms
+[07九月2020 10:54:46.239] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07九月2020 10:54:46.240] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07九月2020 10:54:50.371] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[07九月2020 10:54:50.705] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:e1128847] logged in with entity id 229 at (80.05546127190397, 68.37631454238033, 9.648673229378254)
+[07九月2020 10:54:50.741] [Client thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[07九月2020 10:54:50.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
+[07九月2020 10:54:51.304] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[07九月2020 10:54:51.304] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[07九月2020 10:54:51.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[07九月2020 10:54:51.573] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 45 advancements
+[07九月2020 10:54:53.093] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2279ms or 45 ticks behind
+[07九月2020 10:55:13.816] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[07九月2020 10:55:13.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[07九月2020 10:55:15.349] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[07九月2020 10:55:15.422] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: 连接中止
+[07九月2020 10:55:15.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev退出了游戏
+[07九月2020 10:55:15.433] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[07九月2020 10:55:15.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07九月2020 10:55:15.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07九月2020 10:55:15.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07九月2020 10:55:15.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[07九月2020 10:55:15.714] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[07九月2020 10:55:15.728] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved

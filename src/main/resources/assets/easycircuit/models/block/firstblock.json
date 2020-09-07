@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "easycircuit:block/firstblock",
+    "up": "easycircuit:block/firstblock1",
+    "down": "easycircuit:block/firstblock2",
+    "east": "easycircuit:block/firstblock3",
+    "west": "easycircuit:block/firstblock4",
+    "north": "easycircuit:block/firstblock_front",
+    "south": "easycircuit:block/firstblock5"
+  }
+}
