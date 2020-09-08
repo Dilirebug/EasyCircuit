@@ -1,6 +1,7 @@
 package com.yubeicreeper.easycircuit.block;
 
 import com.yubeicreeper.easycircuit.tileentity.FirstBlockTile;
+import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.registries.ObjectHolder;
 
@@ -16,4 +17,7 @@ public class ModBlocks {
 
     @ObjectHolder("easycircuit:firstblock")
     public static TileEntityType<FirstBlockTile> FIRSTBLOCK_TILE;
+
+    @ObjectHolder("easycircuit:firstblock")
+    public static ContainerType<FirstBlockContainer> FIRSTBLOCK_CONTAINER;
 }

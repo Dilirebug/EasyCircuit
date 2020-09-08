@@ -1,5 +1,6 @@
 package com.yubeicreeper.easycircuit.setup;
 
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.world.World;
 
 /**
@@ -14,6 +15,11 @@ public class ServerProxy implements IProxy {
 
     @Override
     public World getClientWorld() {
+        throw new IllegalStateException("只能在客户端执行");
+    }
+
+    @Override
+    public PlayerEntity getClientPlayer() {
         throw new IllegalStateException("只能在客户端执行");
     }
 }
